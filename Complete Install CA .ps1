@@ -272,7 +272,10 @@ Rename-Item "C:\Program Files (x86)\Common Files\Progress Software2" -NewName "P
 regsvr32 "C:\Program Files (x86)\Common Files\Progress Software\psccab.dll"
 regsvr32 "C:\Program Files (x86)\Common Files\Progress Software\PSCSecReg.dll"
 regsvr32 "C:\Program Files (x86)\Common Files\Progress Software\10\prox.dll"
-
+regsvr32 "C:\Program Files (x86)\Common Files\Progress Software\WebClient\proWCVer.dll"
+regsvr32 "C:\Program Files (x86)\Progress Software\WebClientApps\Border Merchant Systems\CounterAct\SSLstBar.ocx"
+regsvr32 "C:\Program Files (x86)\Progress Software\WebClientApps\Border Merchant Systems\CounterAct\MSCOMCT2.OCX"
+regsvr32 "C:\Program Files (x86)\Progress Software\WebClientApps\Border Merchant Systems\CounterAct\pstimer.ocx"
 
 cacls.exe "c:\temp" /e /t /p Users:f
 cacls.exe "C:\Program Files (x86)\Progress Software" /e /t /p Users:f
